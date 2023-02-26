@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+body{
+    background: #ccccff;
+}
+body h1{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.wrapper{
+    margin: 10px auto;
+    padding:0 10%;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+#hr{
+    width: 520px;
+    text-align: center;
+    border-top: 2px solid black;
+}
+body h4{
+    font-family: "Arial";
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container{
+    display: grid;
+    gap: 50px;
+    grid-tempLate-columns: repeat(auto-fit,minmax(500px,1fr));
+}
+.box{
+
+    padding:25px;
+    text-align: center;
+    background: #ffffff;
+}
+.box img{
+    height: 160px;
+}
+.box h3{
+    font-family: "Sans-serif";
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.box p{
+    text-align: center;
+    font-family: "monospace";
+    letter-spacing: 2px;
+}
+.box p a{
+    text-align: center;
+    font-family: "monospace";
+    color: blue;
+    text-decoration: none;
+}
+.box hr{
+    width: 60px;
+
+}
+.box:hover{
+    transform: scale(1.03);
+    box-shadow: 0 5px 5px rgba(0, 0, 0 ,0.3);
+}
+@media(max-width: 770px){
+    .wrapper{
+        padding: 20px;
+    }
+}
+
+#footer {
+    margin: 30px;
+    background: white;
+    border-radius: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+#footer p{
+    font-family: "Arial";
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-top:20px;
+}
+#footer ul{
+    list-style: none;
+    font-size:18px;
+    line-height: 1.6;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#footer ul li a{
+    color:#8a8a8a;
+    text-decoration: none;
+    opacity: 0.8;
+    font-family: "Poppins";
+}
+#footer ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+#footer ul li a:hover{
+    color: black;
+}
+#footer hr{
+    width: 50%;
+}
